@@ -4,4 +4,4 @@ hello, world!
 
 [Lab Report 2](https://oasisalex.github.io/cse15l-lab-reports/lab_report_week1.html)
 
-[Lav Report 3](https://oasisalex.github.io/cse15l-lab-reports/lab_report_week3.hetml)
+[Lab Report 3](https://oasisalex.github.io/cse15l-lab-reports/lab_report_week3.hetml)
