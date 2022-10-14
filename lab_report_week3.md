@@ -55,8 +55,9 @@ class SearchEngine {
     }
 }
 ```
-
+Why It needs a sub heading?
 ![Image](addingString.PNG)
+
 * handler method is being called
 * url is the relevent argument that's being pass to the method
 * This url trigger adding a new string that's after query and = to the arrarylist (In this case it's apple)
