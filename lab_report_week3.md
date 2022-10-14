@@ -55,7 +55,6 @@ class SearchEngine {
     }
 }
 ```
-Why It needs a sub heading?
 ![Image](addingString.PNG)
 
 * handler method is being called
