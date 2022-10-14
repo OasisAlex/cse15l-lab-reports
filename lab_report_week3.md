@@ -1,4 +1,4 @@
-* Part 1
+# Part 1
 
 ```
 import java.io.IOException;
@@ -68,8 +68,8 @@ class SearchEngine {
 * Handler method is also being called and url is the argument
 * url got detected including search, then it will create a new Arrary list
 * Then run throught the storing array list to find string that contains what after "=" in the query. 
-
-# ReverseInplace bug
+# Part 2
+## ReverseInplace bug
 * The failure-inducing input is [1,2,3,4]  and [1,2,3] and for reverse in places
 
 ```
@@ -106,7 +106,7 @@ for(int i = 0; i < arr.length; i += 1) {
 ```
 * The array fills the first half of the elements in the second half of the element, when I proceed to the second half of the element, those elements aren’t the elements that need to be reversed. So when the index get to over the middle, the reverse is not maded.
 
-# Merge method Bug
+## Merge method Bug
 * The input:
 ```
 @Test
