@@ -2,5 +2,5 @@
 
 **blod**
 
-![Image](20511948.jpg)
+![Image](Lab0pic\20511948.jpg)
 

@@ -55,16 +55,16 @@ class SearchEngine {
     }
 }
 ```
-![Image](addingString.PNG)
+![Image](Lab3pic/addingString.PNG)
 
 * handler method is being called
 * url is the relevent argument that's being pass to the method
 * This url trigger adding a new string that's after query and = to the arrarylist (In this case it's apple)
-![Image](afterAdding.PNG)
+![Image](Lab3pic/afterAdding.PNG)
 * Handler method is also being called and url is the argument
 * This url only equals to "/" so it will print the current String Array list
 * This scrreen shot is after adding apple, pinapple and school
-![Image](Searching.PNG)
+![Image](Lab3pic/Searching.PNG)
 * Handler method is also being called and url is the argument
 * url got detected including search, then it will create a new Arrary list
 * Then run throught the storing array list to find string that contains what after "=" in the query. 
@@ -96,7 +96,7 @@ class SearchEngine {
 
 ```
 * Symptom:
-![Image](ReverseInplacError.PNG)
+![Image](Lab3pic/ReverseInplacError.PNG)
 
 * Bug:
 ```
@@ -126,7 +126,7 @@ for(int i = 0; i < arr.length; i += 1) {
     }
 ```
 * The symptoms:
-![Image](ListMergeError.PNG)
+![Image](Lab3pic/ListMergeError.PNG)
 
 * The bug:
 ```
