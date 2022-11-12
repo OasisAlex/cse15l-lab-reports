@@ -1,9 +1,14 @@
+# find -name 
+
+## code:
 ```
 [cs15lfa22ga@ieng6-203]:skill-demo1:154$ find ./technical -name pmed.0020281.txt
 ./technical/plos/pmed.0020281.txt
 ```
-Using the find command -name option to find the specific file with the name of pmed.0020281.txt
+### explanation:
+Using the find command -name option to find the specific file with the name of pmed.0020281.txt. It is useful for finding a specific file that you know the name of.
 
+## code:
 ```
 [cs15lfa22ga@ieng6-203]:skill-demo1:157$ find ./technical -name "*.txt"
 ./technical/plos/pmed.0020073.txt
@@ -11,8 +16,10 @@ Using the find command -name option to find the specific file with the name of p
 ./technical/plos/pmed.0020278.txt
 ./technical/plos/pmed.0020281.txt
 ```
-Using the find command -name option to find every file that end with .txt file
+### explanation:
+Using the find command -name option to find every file that end with .txt file. It is useful when you are searching all the files that is end with certain type. In this case it is .txt
 
+## code:
 ```
 [cs15lfa22ga@ieng6-203]:skill-demo1:157$ find ./technical -name *.*.txt
 ./technical/911report/chapter-13.1.txt
@@ -24,8 +31,12 @@ Using the find command -name option to find every file that end with .txt file
 ./technical/plos/pmed.0020278.txt
 ./technical/plos/pmed.0020281.txt
 ```
-Using the find command -name option to find every files that has the pattern of something.somthing.txt
+### explanation:
+Using the find command -name option to find every files that has the pattern of something.somthing.txt. It is useful for when you looking for a two level deep files.
 
+
+# find -print
+## code:
 ```
 [cs15lfa22ga@ieng6-203]:skill-demo1:164$ find ./technical/government/About_LSC/ -print
 ./technical/government/About_LSC/
@@ -47,20 +58,29 @@ Using the find command -name option to find every files that has the pattern of 
 ./technical/government/About_LSC/diversity_priorities.txt
 ./technical/government/About_LSC/reporting_system.txt
 ```
-Using the find command -print option to print out the pathway of all files in given directories
+### explanation:
+Using the find command -print option to print out the pathway of all files in given directories. It is useful when you want to know a what file is in that specific folder.
 
+## code:
 ```
 [cs15lfa22ga@ieng6-203]:skill-demo1:167$ find ./technical -name pmed.0020281.txt -print
 ./technical/plos/pmed.0020281.txt
 ```
-Using the find command -print to print out the pathway of specific file
+### explanation:
+Using the find command -print to print out the pathway of specific file. It is useful when you know the file name but doesn't know where its locatin, you can use this to find it.
 
+
+## code:
 ```
 [cs15lfa22ga@ieng6-203]:skill-demo1:175$ find ./technical/plos/pmed.0020281.txt -print
 ./technical/plos/pmed.0020281.txt
 ```
-When you give out a specific file location, it will only print the path to that location
+### explanation:
+When you give out a specific file location, it will only print the path to that location. It is useful when you want to know the location of the files.
 
+# find -type
+
+## code:
 ```
 [cs15lfa22ga@ieng6-203]:skill-demo1:174$ find ./technical -type d
 ./technical
@@ -75,8 +95,10 @@ When you give out a specific file location, it will only print the path to that 
 ./technical/government/Post_Rate_Comm
 ./technical/plos
 ```
-Using -type d to print out all the derectories underneath in that given derectory
+### explanation:
+Using -type d to print out all the derectories underneath in that given derectory.It is useful when you want to know what kinds of directory in the directory that you given.
 
+## code:
 ```
 [cs15lfa22ga@ieng6-203]:skill-demo1:176$ find ./technical/plos -type f
 ./technical/plos/journal.pbio.0020001.txt
@@ -86,10 +108,14 @@ Using -type d to print out all the derectories underneath in that given derector
 ./technical/plos/pmed.0020278.txt
 ./technical/plos/pmed.0020281.txt
 ```
-Using -type f to print out all the files in the given directory.
+### explanation:
+Using -type f to print out all the files in the given directory. It is useful when you trying to find what kinds of files in the directory you given.
 
+
+## code:
 ```
 [cs15lfa22ga@ieng6-203]:skill-demo1:177$ find ./technical/plos -type l
 [cs15lfa22ga@ieng6-203]:skill-demo1:178$ 
 ```
-Using -type options to print out all the links it has in current given directory, however there isn't any
+### explanation:
+Using -type options to print out all the links it has in current given directory, however there isn't any. It is useful when you want to know there is any link in the folder you given.
