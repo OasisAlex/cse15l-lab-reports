@@ -8,3 +8,5 @@ hello, world!
 [Lab Report 3](https://oasisalex.github.io/cse15l-lab-reports/lab_report_week3.html)
 
 [Lab Report 4](https://oasisalex.github.io/cse15l-lab-reports/lab_report_week5.html)
+
+[Lab Report 5](https://oasisalex.github.io/cse15l-lab-reports/lab_report_week7.html)
