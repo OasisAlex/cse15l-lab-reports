@@ -3,49 +3,58 @@
 /start <enter>
 ```
 ![Image](lab7pic\search_start.PNG)
+
 Searching Start and move the cursor to the start of "start"
 
 ```
 ce
 ```
 ![Image](lab7pic\ce.PNG)
+
 Delete the Start and enter insert mode
 
 ```
 base<escape>
 ```
 ![Image](lab7pic\base_escape.PNG)
+
 enter in the new word "base" and escape to normal mode
 ```
 n
 ```
 ![Image](lab7pic\n_1.PNG)
+
 press n to find the next "start" in the file
 ```
 .
 ```
 ![Image](lab7pic\redone1.PNG)
+
 And . means repeat the last modification which is delete "start" and insert "base"
 
 ```
 n
 ```
 ![Image](lab7pic\n_2.PNG)
+
 press another n to find the last "start" in the file
 ```
 .
 ```
 ![Image](lab7pic\redone2.PNG)
+
 Press . which repeat the modification of delet "start" and insert "base"
 ```
 :wq 
 ```
 ![Image](lab7pic\wq.PNG)
+
 Save and exit the vim.
 ```
 <enter>
 ```
 ![Image](lab7pic\enter_finish.PNG)
+
 after enter, you exit out of the mode.
 
 # Part 2
